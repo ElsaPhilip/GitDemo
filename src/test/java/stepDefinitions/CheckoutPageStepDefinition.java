@@ -38,6 +38,9 @@ public void  verify_user_has_ability_enter_promo()
 	Assert.assertTrue(checkoutPage.VerifyPromoBtn());
 	Assert.assertTrue(checkoutPage.VerifyPlaceOrder());
 	
+	System.out.println("postjira");
+	System.out.println("postjira2");
+	System.out.println("postjira3");
 }
 
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
