@@ -41,6 +41,8 @@ public void  verify_user_has_ability_enter_promo()
 	System.out.println("postjira");
 	System.out.println("postjira2");
 	System.out.println("postjira3");
+	System.out.println("postjira4");
+	System.out.println("postjira5");
 }
 
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
